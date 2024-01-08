@@ -1,0 +1,82 @@
+.login-page-main{
+    background-color: #98bbfd;
+    height: 100vh;
+    margin: 0;
+    
+  }
+    .welcome-back-div{
+      background: #98bbfd;
+      color: white;
+      margin-top: 10%;
+      font-weight: bold;
+      width: 76.5%;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .welcome-back-div p{
+      padding: 3%;
+    }
+    .log-in-main-div2{
+      text-align: center;
+      width: 350px;
+    }
+    .log-in-main{
+      background: white;
+      border-radius: 50px;
+      display: flex;
+      margin: auto;
+      width: fit-content;
+     
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+      height: 510px;
+      
+    }
+    .login-form input{
+      display: block;
+      border: none;
+      border-bottom: 1px solid black;
+    }
+    .login-robo-img{
+      height: 510px;
+      width: auto;
+    }
+    .forgot-pws{
+      color: black;
+      text-decoration: none;
+    
+    }
+    .login-form div{
+      display: flex;
+      margin-top: 10%;
+      justify-content: center;
+    }
+    .login-form div img{
+      height: 30px;
+      width: auto;
+      margin-right: 10px;
+    }
+    .login-submit-button {
+      background: rgba(41, 113, 220, 0.732);
+      border-radius: 7px;
+      width: 30%;
+      padding: 7px;
+      margin: auto;
+      left: 10px;
+      margin-bottom: 7%;
+      font-weight: bold;
+  
+    }
+    
+    .login-submit-button img{
+      height: 17px !important;
+    }
+    .login-submit-button input{
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-weight: bold;
+    }
+    
+    .login-form{
+        margin-top: 65px;
+    }
