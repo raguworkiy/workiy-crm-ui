@@ -6,7 +6,7 @@ function Login() {
   const [logindata, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:5000/api/logindata')
+    axios.get('https://7t7rw6av2l.execute-api.us-east-1.amazonaws.com/dev/api/logindata')
       .then((response) => {
         console.log('Data received:', response.data);
         setData(response.data);
